@@ -360,6 +360,3 @@ class Config {
     // Return the array to be used by the renderer
     return dockSites;
 }
-		return dockSites;
-	}
-}
