@@ -332,51 +332,34 @@ class Config {
 	}
 
 	getDockSites = () => {
-		// Dock
-		// A list of websites that will be generated and put on the dock
-		const dockSites = [
-			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/'
-			},
-			{
-				site: 'Github',
-				icon: 'github',
-				url: 'https://github.com/'
-			},
-			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/'
-			},
-			{
-				site: 'Gmail',
-				icon: 'gmail',
-				url: 'https://mail.google.com/'
-			},
-			{
-				site: 'Youtube',
-				icon: 'youtube',
-				url: 'https://youtube.com/'
-			},
-			{
-				site: 'GDrive',
-				icon: 'gdrive',
-				url: 'https://drive.google.com/'
-			},
-			{
-				site: 'Twitter',
-				icon: 'twitter',
-				url: 'https://twitter.com/'
-			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
-			}
-		];
-
+    // Dock
+    // A list of websites that will be generated and put on the dock
+    const dockSites = [
+        {
+            site: 'Classroom',
+            icon: 'classroom',
+            url: 'https://classroom.google.com/'
+        },
+        {
+            site: 'Github',
+            icon: 'github',
+            url: 'https://github.com/'
+        },
+        {
+            site: 'Outlook',
+            icon: 'outlook',
+            url: 'https://outlook.office.com/mail/?realm=immanuelcollege.co.uk'
+        },
+        {
+            site: 'GDrive',
+            icon: 'gdrive',
+            url: 'https://drive.google.com/'
+        }
+    ];
+    
+    // Return the array to be used by the renderer
+    return dockSites;
+}
 		return dockSites;
 	}
 }
